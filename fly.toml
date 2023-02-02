@@ -7,6 +7,7 @@ processes = []
 
 [env]
   WHOOGLE_CONFIG_BLOCK = "w3schools.com,csdn.net"
+  WHOOGLE_CONFIG_THEME = "light"
 
 [experimental]
   auto_rollback = true
