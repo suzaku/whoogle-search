@@ -6,6 +6,7 @@ kill_timeout = 5
 processes = []
 
 [env]
+  WHOOGLE_CONFIG_BLOCK = "w3schools.com,csdn.net"
 
 [experimental]
   auto_rollback = true
