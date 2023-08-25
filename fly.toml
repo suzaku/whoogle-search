@@ -14,6 +14,7 @@ kill_timeout = "5s"
 [env]
   WHOOGLE_CONFIG_BLOCK = "w3schools.com,csdn.net"
   WHOOGLE_CONFIG_THEME = "light"
+  WHOOGLE_CONFIG_LANGUAGE = "lang_en"
 
 [[services]]
   protocol = "tcp"
