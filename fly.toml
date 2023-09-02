@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for snowy-resonance-3360 on 2023-05-27T10:01:05+08:00
+# fly.toml app configuration file generated for windy-ventana-1023 on 2023-09-02T10:24:02+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "snowy-resonance-3360"
+app = "windy-ventana-1023"
 primary_region = "hkg"
 kill_signal = "SIGINT"
 kill_timeout = "5s"
@@ -11,11 +11,13 @@ kill_timeout = "5s"
 [experimental]
   auto_rollback = true
 
+[build]
+
 [env]
   WHOOGLE_CONFIG_BLOCK = "w3schools.com,csdn.net"
-  WHOOGLE_CONFIG_THEME = "light"
-  WHOOGLE_CONFIG_LANGUAGE = "lang_en"
   WHOOGLE_CONFIG_GET_ONLY = "1"
+  WHOOGLE_CONFIG_LANGUAGE = "lang_en"
+  WHOOGLE_CONFIG_THEME = "light"
 
 [[services]]
   protocol = "tcp"
@@ -39,4 +41,3 @@ kill_timeout = "5s"
     interval = "15s"
     timeout = "2s"
     grace_period = "1s"
-    restart_limit = 0
